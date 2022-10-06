@@ -1,0 +1,180 @@
+
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    background-color: #1b1b1f;
+    height: 1500px;
+
+}
+
+.title{
+
+    padding: 10px;
+    padding-left: 100px;
+    padding-top: 18px;
+
+    position: relative;
+    
+    float: left;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.top-bar{
+
+    background-color: #212529;
+    box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px;
+
+    position: relative;
+
+}
+
+.add-btn{
+
+    background-color: #212529;
+
+    cursor: pointer;
+
+    position: relative;
+
+    margin-left: 4px;
+
+    color: #28a745;
+    border-color: #28a745;
+
+    padding: 15px;
+    margin: 30px 25px;
+
+    width: 150px;
+
+    border-radius: 7px;
+
+    left: 1000px;
+
+    text-shadow: none;
+
+    border-style: solid;
+
+    font-size: 20px;
+
+}
+
+.add-btn:hover{
+    background-color: #28a745;
+    color: white;
+    
+    transition: 0.5s;
+}
+
+.title-monitor{
+    color: gray;
+
+    left: 765px;
+
+    position: relative;
+
+
+}
+
+.form-backup{
+    color: gray;
+
+    background-color: #212529;
+
+    width: 500px;
+    height: 800px;
+
+    left: 610px;
+
+    position: relative;
+
+    padding: 20px;
+
+    top: 100px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px;
+}
+
+.ticket, .old-server, .new-server{
+
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-size: 15px;
+}
+
+.observation{
+    
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-size: 15px;
+}
+
+.motivo, .status{
+
+    width: 225px;
+    border: solid;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+}
+
+.confirm-btn{
+
+    background-color: #212529;
+
+    cursor: pointer;
+
+    position: relative;
+
+    margin-left: 4px;
+
+    color: #28a745;
+    border-color: #28a745;
+
+    padding: 15px;
+
+    width: 150px;
+
+    border-radius: 7px;
+
+    text-shadow: none;
+
+    border-style: solid;
+
+    font-size: 20px;
+
+    top: 20px;
+
+    bottom: 20px;
+
+}
+
+.confirm-btn:hover{
+
+    background-color: #28a745;
+    color: white;
+    
+    transition: 0.5s;
+}
