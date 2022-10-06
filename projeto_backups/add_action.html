@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador | Backups e Restaurações</title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+
+<body>
+
+    <div class="top-bar">       <!--Div para a central de ação/cabeçalho-->
+
+        <a href="index.html"><h2 class="title">Gerenciador | Backups e Restaurações</h2></a>
+        <button class="add-btn">Add</button>            <!--Botão para adicionar um agendamento-->
+
+    </div>
+
+    <div class="form-backup">   <!--Div para selecionar o motivo, ticket, server, data de inicio e o status-->
+
+        <h3>Cadastrar agendamento</h3>
+        <br>
+
+        <p>Ticket:</p>
+        <input type="number" class="ticket">
+
+        <p>Servidor antigo:</p>
+        <input type="text" class="old-server">
+
+        <p>Servidor novo:</p>
+        <input type="text" class="new-server">
+
+        <p>Motivo:</p>
+        <select class="motivo">
+
+            <option value="motivo1">Mudança de plano</option>
+            <option value="motivo2">Problemas no servidor</option>
+            <option value="motivo3">Testar servidor</option>
+            <option value="motivo4">Outro</option>
+
+        </select>
+
+        <p>Observações</p>
+        <input type="text" class="observation">
+
+        <p>Status</p>
+        <select class="status">
+
+            <option value="motivo1">Agendado</option>
+            <option value="motivo2">Iniciado</option>
+            <option value="motivo3">A remover</option>
+            <option value="motivo4">Concluído</option>
+            <option value="motivo4">Cancelado</option>
+            <option value="motivo4">Ecluir linha</option>
+
+        </select>
+
+        <br>
+        <button class="confirm-btn">Confirmar</button>
+
+    </div>
+
+    
+    
+</body>
+
+</html>
