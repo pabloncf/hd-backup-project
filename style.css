@@ -1,25 +1,24 @@
-
 * {
 
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-body{
+body {
 
     background-color: #1b1b1f;
     height: 1500px;
 
 }
 
-.title{
+.title {
 
     padding: 10px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-top: 18px;
 
     position: relative;
-    
+
     float: left;
 
     text-align: center;
@@ -28,7 +27,7 @@ body{
 
 }
 
-.top-bar{
+.top-bar {
 
     background-color: #212529;
     box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px;
@@ -37,7 +36,7 @@ body{
 
 }
 
-.add-btn{
+.add-btn {
 
     background-color: #212529;
 
@@ -57,34 +56,34 @@ body{
 
     border-radius: 7px;
 
-    left: 1000px;
-
     text-shadow: none;
 
     border-style: solid;
 
     font-size: 20px;
 
+
+
 }
 
-.add-btn:hover{
+.add-btn:hover {
     background-color: #28a745;
     color: white;
-    
+
     transition: 0.5s;
 }
 
-.title-monitor{
+.title-monitor {
     color: gray;
 
-    left: 765px;
 
+    text-align: center;
     position: relative;
 
 
 }
 
-.form-backup{
+.form-backup {
     color: gray;
 
     background-color: #212529;
@@ -107,7 +106,9 @@ body{
     box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px;
 }
 
-.ticket, .old-server, .new-server{
+.ticket,
+.old-server,
+.new-server {
 
     width: 200px;
     border: solid;
@@ -118,8 +119,8 @@ body{
     font-size: 15px;
 }
 
-.observation{
-    
+.observation {
+
     width: 200px;
     border: solid;
     border-radius: 10px;
@@ -129,7 +130,8 @@ body{
     font-size: 15px;
 }
 
-.motivo, .status{
+.motivo,
+.AgdStatus {
 
     width: 225px;
     border: solid;
@@ -140,7 +142,7 @@ body{
     font-size: 15px;
 }
 
-.confirm-btn{
+.confirm-btn {
 
     background-color: #212529;
 
@@ -171,10 +173,17 @@ body{
 
 }
 
-.confirm-btn:hover{
+.confirm-btn:hover {
 
     background-color: #28a745;
     color: white;
-    
+
     transition: 0.5s;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 750px;
+    width: 400px;
+    position: absolute
 }
