@@ -33,19 +33,25 @@ require 'actions.php';
         <!--Div para selecionar o motivo, ticket, server, data de inicio e o status-->
 
         <h3>Cadastrar agendamento</h3>
+        <?php
+            if(isset($_SESSION['msg'])){
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+            }
+        ?>
         <br>
         <form action="actions.php" method="POST">
             <p>Ticket:</p>
-            <input type="number" class="ticket" name="ticket" >
+            <input type="number" class="ticket" name="ticket" required>
 
             <p>Servidor antigo:</p>
-            <input type="text" class="old-server" name="oldServer">
+            <input type="text" class="old-server" name="oldServer" required>
 
             <p>Servidor novo:</p>
-            <input type="text" class="new-server" name="newServer">
+            <input type="text" class="new-server" name="newServer" required>
 
             <p>Motivo:</p>
-            <select class="motivo" name="reason">
+            <select class="motivo" name="reason" required>
                 
                 <?php
                     $result_agd_reason = "SELECT * FROM agd_reason";  //pegando a tabela com os status
@@ -61,7 +67,7 @@ require 'actions.php';
             <input type="textarea" class="observation" name="observations">
 
             <p>Status</p>
-            <select class="AgdStatus" name="status">
+            <select class="AgdStatus" name="status" required>
 
                 
                 <?php
@@ -76,6 +82,7 @@ require 'actions.php';
 
             <br>
             <button class="confirm-btn" type="submit">Confirmar</button>
+            
             
         </form>
         
